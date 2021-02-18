@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-require('./robot.js');
+require('./robot2.js');
 
 const inquirer = require('inquirer');
 

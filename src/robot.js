@@ -54,4 +54,4 @@ function distance(str){
     }
     return Math.abs(x) + Math.abs(y);
 }
-global.distance = distance;
+//global.distance = distance;

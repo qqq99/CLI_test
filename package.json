@@ -11,7 +11,7 @@
   "license": "ISC",
   "bin": {
     "cli-test": "bin/index.js",
-    "start": "src/start.js"
+    "start": "src/start2.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
