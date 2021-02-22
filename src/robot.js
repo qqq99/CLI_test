@@ -1,4 +1,4 @@
-function distance(str){
+/* function distance(str){
     var face = 'east';
     var x = 0;
     var y = 0;
@@ -54,4 +54,5 @@ function distance(str){
     }
     return Math.abs(x) + Math.abs(y);
 }
-//global.distance = distance;
+global.distance = distance;
+*/

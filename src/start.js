@@ -5,6 +5,12 @@ const inquirer = require('inquirer');
 
 var questions = [
   {
+    type: "confirm",
+    name: "ask",
+    message: "Want to play? (hit enter for YES, other random key for NO)",
+    default: true
+},
+  {
       name:"name",
       type:"input",
       message:"please give robot an instruction: e.g.'F1,R1,B2,L1,B3' and separate using comma",
@@ -15,11 +21,6 @@ var questions = [
               return true
           }
       }
-},{
-      type: "confirm",
-      name: "ask",
-      message: "Want to play again? (hit enter for YES, other random key for NO)",
-      default: true
 }];
 
 function recursive(){
@@ -34,8 +35,7 @@ function recursive(){
       recursive();
     else
       console.log('**************End*************')
-  })
-  .catch(error => {
+  }).catch(error => {
     console.log(error)
   })
 }
